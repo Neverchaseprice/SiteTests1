@@ -1,0 +1,11 @@
+body {
+    background-color: #cdce9b; /* Темно-зеленый цвет фона */
+    color: black; /* Белый текст */
+    font-family: Arial, sans-serif; /* Шрифт для текста */
+    padding: 25px; /* Отступы от краев */
+}
+
+img {
+    width: 300px;
+    height: auto;
+}

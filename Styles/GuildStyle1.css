@@ -19,6 +19,20 @@ header {
     padding: 30px 0;
 }
 
+/*Выделение текста мышкой*/
+::selection {
+    background: #0f2714ec; /* Safari */
+    color: white; /* For selecting text color */
+}
+::-moz-selection {
+    background: #0f2714ec; /* Firefox */
+    color: white; /* For selecting text color */
+}
+::-ms-selection {
+    background: #0f2714ec; /* Firefox */
+    color: white; /* For selecting text color */
+}
+
 header h1 {
     font-size: 3em;
 }

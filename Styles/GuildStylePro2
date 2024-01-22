@@ -1,0 +1,85 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply ivory background color */
+body {
+    background: linear-gradient(to bottom, #b2d8bb, #092523); /* Изменение цвета на цвет слоновой кости */
+    color: #ffffff; /* Изменение текстового цвета для контраста */
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background: #000000;
+    padding: 10px;
+}
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Style the hero section */
+.hero {
+    text-align: center;
+    padding: 100px 0;
+}
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.cta-button {
+    padding: 10px 20px;
+    background: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Style the features section */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+.feature {
+    text-align: center;
+    flex: 1;
+    padding: 20px;
+    background: #102727;
+    margin: 0 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s; /* Добавление плавного перехода при наведении */
+    cursor: pointer; /* Сделать указатель при наведении на блок */
+}
+.feature:hover {
+    background: #000000; /* Изменение цвета при наведении для эффекта кликабельности */
+}
+.feature h2 {
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+.feature p {
+    color: #ffffff;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #000000;
+}
+footer p {
+    color: #ffffff;
+}

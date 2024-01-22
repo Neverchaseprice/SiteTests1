@@ -1,1 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/GuildStylePro2.css">
+    <title>Гильдия</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Гильдия</a></li>
+                <li><a href="#">Решения</a></li>
+                <li><a href="#">Наши Активы</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Добро пожаловать в Гильдию!</h1>
+            <p>ИИ дает феноменальное преимущество. Вместе мы можем сделать больше.</p>
+            <br>
+            <br>
+            <a href="#" class="cta-button">Начать</a>
+        </section>
+        <section class="features">
+            <div class="feature">
+                <h2>Бизнес-Юниты</h2>
+                <p>Кооперируйтесь с единомышленниками</p>
+            </div>
+            <div class="feature">
+                <h2>Приемы</h2>
+                <p>Станьте эффективнее</p>
+            </div>
+            <div class="feature">
+                <h2>Ваши Активы</h2>
+                <p>Отслеживайте развитие проектов</p>
+            </div>
+        </section>
+        <section class="features">
+            <div class="feature">
+                <h2>Собрать ресурсы</h2>
+                <p>Заберите доходы от активов</p>
+            </div>
+            <div class="feature">
+                <h2>Использовать ИИ</h2>
+                <p>Обработка данных и развитие</p>
+            </div>
+            <div class="feature">
+                <h2>Команда</h2>
+                <p>Свяжитесь с агентами</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Гильдия</p>
+    </footer>
+</body>
+</html>
 
